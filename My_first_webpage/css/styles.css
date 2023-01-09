@@ -1,0 +1,179 @@
+
+#title {
+  background-color: #ef8172;
+  color: Black;
+}
+
+.container-fluid {
+  padding: 3% 5% 10%;
+}
+
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: inherit;
+}
+
+body{
+  font-family: "Montserrat";
+  position: absolute;
+}
+
+.nov {
+  display: flex;
+  color: white;
+  text-align: end;
+  padding-right: 5%;
+
+}
+
+.navbar {
+  padding-bottom: 10rem;
+  background-color: yellow;
+}
+
+
+
+.Download-button {
+  margin: 5% 3% 5% 0;
+  padding:5px 60px 17px;
+}
+ /*title image*/
+
+.title-image {
+  width: 17%;
+  transform: rotate(11deg);
+  position: absolute;
+  right: 14%;
+}
+
+
+element.style {
+  padding: 1%;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+ margin-left: inherit;
+  z-index: 2;
+}
+
+.features-box {
+  text-align: center;
+  padding: 1%;
+  border: 2px;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color:#ff4c68;
+
+}
+
+h2 {
+  font-family:serif;
+}
+
+.tex {
+  text-align: center;
+}
+#testimonials{
+   text-align: center;
+   background-color: #ef8172;
+   color: #fff;
+   padding: 7% 15%;
+}
+
+.testimonial-image {
+  width:60%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.row-now {
+  font-family:30px;
+  font-size: 20px;
+}
+
+
+.h3 {
+  font-family: "Roboto, 'Segoe UI', Tahoma, sans-serif";
+}
+
+.p {
+font-family: "Times New Roman", Courier,serif;
+font-size:20px!important;
+padding: -3px;
+}
+
+}
+
+.logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+.price {
+text-align: center;
+font-family: sans-serif;
+font-size: 20px;
+  }
+
+.preising {
+  padding: 3% 2%;
+}
+
+#pricing {
+  padding: 100px;
+  font-size: 20px;
+}
+
+#cta {
+  background-color: #ef8172;
+  text-align: center;
+  font-size: 100px;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+}
+
+.cta-text{
+  font-size: 3rem;
+  font-family: "Montserrat-Black";
+  line-height: 1.5rem;
+}
+
+#footer{
+text-align: center;
+padding: 7%;
+
+}
+
+.social-icon{
+  margin:20px 10px;
+}
+
+
+  @media (max-width:1080px) {
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
